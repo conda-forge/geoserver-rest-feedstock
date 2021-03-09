@@ -1,17 +1,17 @@
-{% set name = 'geoserver-rest' %}
-{% set version = '1.4.0' %}
+{% set name = "geoserver-rest" %}
+{% set version = "1.5.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 625327b23ee2ee77e839272b04d0b6e81b7dc98e0713e4e23d003a1bf2461551
+  sha256: 2d25b2333099e9ee48fee850bdc80b825ccd462f8599e20f6be32509cc036ac9
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   home: https://github.com/gicait/geoserver-rest
   license: MIT
   license_file: LICENSE
-  summary: "The package for management of geospatial data in GeoServer."
+  summary: The package for management of geospatial data in GeoServer.
   description: |
     The geoserver-rest package is useful for the management for geospatial data in GeoServer. The package is useful for the creating, updating and deleting geoserver workspaces, stores, layers, and style files.
   dev_url: https://github.com/gicait/geoserver-rest
