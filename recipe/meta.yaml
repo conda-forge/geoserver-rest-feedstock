@@ -23,8 +23,8 @@ requirements:
     - pip
     - gdal
     - seaborn
-    - pycurl
-    - psycopg2
+    - requests
+    - pygments
 
 test:
   imports:
