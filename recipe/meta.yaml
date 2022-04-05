@@ -25,6 +25,7 @@ requirements:
     - seaborn
     - requests
     - pygments
+    - xmltodict
 
 test:
   imports:
