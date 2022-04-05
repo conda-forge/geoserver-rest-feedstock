@@ -1,12 +1,12 @@
 {% set name = "geoserver-rest" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9def900ee6037447f7e96f1ea91a94b7ac231f3e4ddfd526b2f857f5673090e
+  sha256: 95d1eeb4063e64c93643ec7a91956fb72c39991121524d6360b4865ba40f663a
 
 build:
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - seaborn
     - requests
     - pygments
+    - xmltodict
 
 test:
   imports:
