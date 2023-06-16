@@ -1,11 +1,11 @@
-About geoserver-rest
-====================
+About geoserver-rest-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoserver-rest-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gicait/geoserver-rest
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoserver-rest-feedstock/blob/main/LICENSE.txt)
 
 Summary: The package for management of geospatial data in GeoServer.
 
