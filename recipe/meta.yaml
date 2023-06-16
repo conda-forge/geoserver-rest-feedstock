@@ -1,12 +1,12 @@
 {% set name = "geoserver-rest" %}
-{% set version = "2.4.1" %}
+{% set version = "2.5.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e7f66825b6df1fe76b1613c6edfc47b5a18fbbe45663ed202b3b9058a39a8c94
+  sha256: 7130ae46c06ba5be75e08a5f4389c82d5637409600b49df657772155d7f35057
 
 build:
   noarch: python
