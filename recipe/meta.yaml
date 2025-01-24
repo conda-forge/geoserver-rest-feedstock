@@ -21,6 +21,9 @@ requirements:
   run:
     - python >={{ python_min }}
     - pip
+    - gdal
+    - matplotlib
+    - seaborn
     - requests
     - pygments
     - xmltodict
@@ -46,13 +49,3 @@ about:
 extra:
   recipe-maintainers:
     - iamtekson
-
-  optional-dependencies:
-    all:
-      - gdal
-      - seaborn
-      - matplotlib
-    style:
-      - gdal
-      - seaborn
-      - matplotlib
