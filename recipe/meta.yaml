@@ -22,7 +22,6 @@ requirements:
     - python >={{ python_min }}
     - pip
     - gdal
-    - matplotlib
     - seaborn
     - requests
     - pygments
